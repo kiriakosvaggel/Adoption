@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap");
+.navbar-top {
+  background-color: #3333338e;
+  color: #f3ebeb;
+  padding: 10px 0;
+}
+
+.navbar-bottom {
+  background-color: #da9b99;
+  padding: 10px 0;
+}
+
+.navbar-bottom ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-bottom li {
+  margin-right: 10px;
+  background-color: #edc8b9;
+
+  font-family: Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+.navbar-bottom li:hover {
+  background-color: #4d9dff; /* Darker blue on hover */
+}
+
+.navbar-bottom input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navbar-bottom input[type="text"]:focus {
+  outline: none;
+  border-color: #333;
+}

@@ -1,0 +1,52 @@
+.background-container {
+  background-image: url("../../Images/second.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .background-container {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  height: 200px; 
+  background-image: url("../../Images/second.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+.first-box {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  background-color: #dd7973;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+}
+
+h1 {
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  font-size: 40px;
+  color: rgb(255, 255, 65);
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+
+  color: rgb(255, 255, 255);
+}
+section {
+  padding-top: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
